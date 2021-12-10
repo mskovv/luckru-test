@@ -1,8 +1,5 @@
-
-
 <table>
   <tr>
-    <!-- <button class="addBtn" id="addBtn">Добавить запись</button> -->
     <th>ФИО</th>
     <th>Телефон</th>
     <th>Кем приходится</th>
