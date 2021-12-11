@@ -5,28 +5,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-body .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body .row table td {
-  width: 300px;
-  text-align: center;
-}
-
-body .row table td input {
-  margin: 0;
-  width: 97%;
-  border: 2px solid black;
-  line-height: 25px;
-}
-
 body .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,36 +15,19 @@ body .wrapper {
           justify-content: center;
 }
 
-body .wrapper .addBtn {
-  width: 120px;
-  height: 70px;
-  font-size: 20px;
-  border-radius: 15px;
-  font-weight: 900;
-}
-
 body .wrapper .container {
   width: 1000px;
 }
 
-body .wrapper .container table th {
-  border: 2px solid black;
-  width: 250px;
+.table thead {
   text-align: center;
 }
 
-body .wrapper .container table td {
-  border: 1px solid #222121;
-  text-align: center;
-  height: 30px;
+.table thead th {
+  border: 1px solid black;
 }
 
-body .wrapper .container table td button {
-  border-radius: 10px;
-  font-weight: 900;
-}
-
-body .wrapper .container table td button:hover {
-  border: 3px solid #3b3838;
+.table thead td {
+  border: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
